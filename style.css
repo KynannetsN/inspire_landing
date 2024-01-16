@@ -81,3 +81,57 @@ ul{
     left: 0;
     z-index: 0;
 }
+.main__getting-to-know{
+    text-align: center;
+    margin-top: 80px;
+    
+    
+}
+.main__getting-to-know_text{
+    color: #001A3E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+.main__getting-to-know_paragraph{
+    color: #001A3E;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.main__getting-to-know_achievement{
+    background: #EFF6FF;
+    display: flex;
+    align-items: center;
+    height: 168px;
+}
+.main__getting-to-know_achievement_text{
+    color: #001A3E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+.main__getting-to-know_achievement_text-secondary{
+    color: #001A3E;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.main__getting-to-know_achievement_box{
+    display: flex;
+    flex-direction: column;
+}
