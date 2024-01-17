@@ -1,5 +1,4 @@
 *{
-    max-width: 1440px;
     padding: 0;
     margin: 0 auto;
 }
@@ -13,14 +12,14 @@
     --sky-blue: #247FFF;
 
 }
-header {
+.main__header {
     position: relative;
     z-index: 1;
     background-color: var(--dark-opacity);
     height: 80px;
     
 }
-ul li a{
+.main__header_nav-bar_list li a{
     text-decoration: none;
     color: #EFF6FF;
     font-family: Open Sans;
@@ -29,11 +28,11 @@ ul li a{
     font-weight: 700;
     line-height: 24px;
 }
-ul li{
+.main__header_nav-bar_list li{
     margin: 0;
     text-decoration: none;
 }
-ul{
+.main__header_nav-bar_list{
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -73,7 +72,6 @@ ul{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 800px;
     position: absolute;
     top: 0;
     right: 0;
@@ -113,6 +111,7 @@ ul{
     display: flex;
     align-items: center;
     height: 168px;
+    margin-bottom: 160px;
 }
 .main__getting-to-know_achievement_text{
     color: #001A3E;
@@ -134,4 +133,23 @@ ul{
 .main__getting-to-know_achievement_box{
     display: flex;
     flex-direction: column;
+}
+.main__cooperate-companies_title-text{
+    color: #001A3E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 83px;
+}
+.main__cooperate-companies_title-text-blue{
+    color: #0057D0;
+}
+.main__cooperate-companies_icons{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    margin-bottom: 168px;
 }
