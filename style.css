@@ -295,4 +295,40 @@
 .main_lorem-tempor{
     margin-bottom: 160px;
 }
+.mian__our-strategy_title{
+    color: #001A3E;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.mian__our-strategy_info-text_name-paragrah{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.mian__our-strategy_info-text_paragrah{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.mian__our-strategy_info-text{
+    width: 600px;
+}
+.mian__our-strategy_info-conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
 
