@@ -331,4 +331,30 @@
     align-items: center;
     margin-bottom: 150px;
 }
+.main__reviews-title h3{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.main__reviews-conteiner_person-info-name{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.main__reviews-conteiner_person-info-text{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
 
