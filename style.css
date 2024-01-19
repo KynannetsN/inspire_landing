@@ -341,20 +341,104 @@
     text-align: center;
     margin-bottom: 70px;
 }
-.main__reviews-conteiner_person-info-name{
+.main__reviews-conteiner_person-info-name-for-jessie{
     color: #001A3E;
     font-family: "Open Sans";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
+    margin-bottom: 20px;
 }
-.main__reviews-conteiner_person-info-text{
+.main__reviews-conteiner_person-info-text-for-jessie{
     color: #001A3E;
     font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+}
+.main__reviews-conteiner_person{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+.main__reviews-conteiner{
+    display: grid;
+    align-items: start;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 15px;
+    background-color: #EFF6FF;
+    /* filter: blur(20px); */
+}
+.main__reviews-conteiner2{
+    display: grid;
+    align-items: start;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 15px;
+    background-color: #EFF6FF;
+    /* filter: blur(20px); */
+}
+
+.main__reviews-conteiner_person-img{
+    margin: 20px;
+}
+.main__reviews-conteiner_person-info-name-for-shelly{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.main__reviews-conteiner_person-info-text-for-shelly{
+    color: #001A3E;
+    text-align: right;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.main__reviews-conteiner_person-img{
+    width: 100%;
+}
+.main__reviews-conteiner_person-info-name-for-walter{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: end;
+}
+.main__reviews-conteiner_person-info-text-for-walter{
+    color: #001A3E;
+    text-align: right;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+.main__reviews-conteiner_person-info-name-for-leonard{
+    color: #001A3E;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: start;
+}
+.main__reviews-conteiner_person-info-text-for-leonard{
+    color: #001A3E;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
 }
 
