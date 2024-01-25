@@ -331,6 +331,11 @@
     align-items: center;
     margin-bottom: 150px;
 }
+.main__reviews{
+    background-color: #EFF6FF;
+    /* filter: blur(20px); */
+    margin-bottom: 150px;
+}
 .main__reviews-title h3{
     color: #001A3E;
     font-family: "Open Sans";
@@ -366,20 +371,9 @@
 .main__reviews-conteiner{
     display: grid;
     align-items: start;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    background-color: #EFF6FF;
-    /* filter: blur(20px); */
 }
-.main__reviews-conteiner2{
-    display: grid;
-    align-items: start;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 15px;
-    background-color: #EFF6FF;
-    /* filter: blur(20px); */
-}
-
 .main__reviews-conteiner_person-img{
     margin: 20px;
 }
@@ -441,4 +435,56 @@
     font-weight: 500;
     line-height: 22px;
 }
+.main__reviews-person-icon{
+    background: linear-gradient(90deg, rgba(239, 246, 255, 0.10) 0%, #EFF6FF 50%, rgba(239, 246, 255, 0.10) 100%);
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start
+}
+.main__reviews-person-icon img{
+    margin: 10px;
+}
+.main__call-us{
+    background: rgba(0, 0, 0, 0.40);
+    /* z-index: 1; */
+    text-align: center;
+}
 
+.main__call-us_background-image{
+    background-image: url(./image/background-image/main__call-us_background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    height: 1184px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.main__call-us_conteiner-title{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.main__call-us_conteiner-title span{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.main__call-us_some-text{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
