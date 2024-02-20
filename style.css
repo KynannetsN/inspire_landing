@@ -563,5 +563,11 @@ textarea{
     letter-spacing: 0em;
     color: #FFFFFF;
     width: 20vw;
+    height: 4vw;
+
+}
+.main_footer{
+    background: #00112A;
+    height: 472px;
 
 }
